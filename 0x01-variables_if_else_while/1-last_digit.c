@@ -16,7 +16,8 @@ int main(void)
 	x = n % 10;
 	printf("Last digit of %d is %d", n, x);
 		if (x > 5)
-		{ printf("and is grater than 5");
+		{ 
+			printf("and is grater than 5");
 		}
 	if (x == 0)
 	{
