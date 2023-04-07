@@ -2,7 +2,7 @@
 
 /**
  * shash_table_create - This creates a sorted hash table
- * @size: The size of the hash table
+ * @size: size of the hash table
  *
  * Return: pointer to the new table, or NULL on failure
  */
@@ -32,7 +32,7 @@ shash_table_t *shash_table_create(unsigned long int size)
 
 /**
  * make_shash_node - This makes a node for the sorted hash table
- * @key: The key for the data
+ * @key: key for the data
  * @value: data to be stored
  *
  * Return: pointer to the new node, or NULL on failure
